@@ -4,8 +4,20 @@ namespace GeometricShapes {
     class Program {
         static void Main(string[] args) {
 
-            var sqr1 = new Square(5);
+            
+            
+            
+            /* var sqr1 = new Square(5);
             Console.WriteLine($"sqr1 perimeter is {sqr1.Perimeter()}, sqr1 area is {sqr1.area()}");
+
+            var sqr2 = new Square(8);
+            Console.WriteLine($"sqr2 perimeter is {sqr2.Perimeter()}, sqr2 area is {sqr2.area()}");
+
+            var quad3 = new Quad(5, 3, 5, 2);
+            var perimeter = quad3.Perimeter();
+            Console.WriteLine($"quad3 perimeter is {perimeter}"); */
+
+
             
             
             /* var rect1 = new Rect(6, 4);
