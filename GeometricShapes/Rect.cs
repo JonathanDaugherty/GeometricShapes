@@ -5,9 +5,11 @@ using System.Text;
 namespace GeometricShapes {
     class Rect : Quad {
 
+        public override /* put in to pass up the base class*/ string Print() {
+            return "Rect";
+        }
 
-
-        public int Area() {
+        public virtual int Area() {
             return Side1 * Side2;
         }
 

@@ -5,6 +5,10 @@ using System.Text;
 namespace GeometricShapes {
     class Square : Rect {
 
+        public override string Print() {
+            return "Square";
+        }
+        
         public Square() {
 
         }

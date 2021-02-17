@@ -10,6 +10,10 @@ namespace GeometricShapes {
         public int Side3 { get; set; }
         public int Side4 { get; set; }
 
+        public virtual /*base class */ string Print() {
+            return "Quad";
+        }
+        
         //Method
         
         public int Perimeter() {
