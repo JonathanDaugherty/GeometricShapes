@@ -9,7 +9,7 @@ namespace GeometricShapes {
             return "Rect";
         }
 
-        public virtual int Area() {
+        public virtual /* base class*/ int Area() {
             return Side1 * Side2;
         }
 
